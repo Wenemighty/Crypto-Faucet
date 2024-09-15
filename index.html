@@ -3,44 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Faucet</title>
+    <title>Crypto Faucet Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="login-container">
         <header>
             <h1>Crypto Faucet</h1>
-            <p>Claim your crypto rewards once you hit the minimum threshold!</p>
+            <p>Login to claim your rewards</p>
         </header>
         
-        <!-- Placeholder for Ad -->
-        <div class="ad-container">
-            <p>Your Ad Here</p>
-            <!-- Add your ad script here later -->
-        </div>
-        
-        <!-- Crypto Images Section -->
         <section class="crypto-images">
-            <h2>Supported Cryptos</h2>
-            <div class="crypto-gallery">
-                <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin" />
-                <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum" />
-                <img src="https://cryptologos.cc/logos/litecoin-ltc-logo.png" alt="Litecoin" />
-                <!-- Add more crypto images as needed -->
-            </div>
+            <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin" />
+            <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum" />
+            <img src="https://cryptologos.cc/logos/litecoin-ltc-logo.png" alt="Litecoin" />
         </section>
-
-        <section class="mining-info">
-            <h2>Mining Power</h2>
-            <p id="miningPower">Current Mining Power: 0 LTC/hour</p>
-            <p>Minimum deposit required: 1 LTC</p>
-            <p>Minimum withdrawal amount: 1.5 LTC</p>
-        </section>
-
-        <form id="claimForm">
+        
+        <form id="loginForm">
             <label for="walletAddress">Enter your Wallet Address:</label>
             <input type="text" id="walletAddress" name="walletAddress" required>
-            <button type="submit">Claim Now</button>
+            <button type="submit">Login and Claim</button>
         </form>
 
         <div id="message"></div>
@@ -48,4 +30,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+    </html>
