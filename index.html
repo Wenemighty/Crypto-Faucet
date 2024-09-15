@@ -8,8 +8,34 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Crypto Faucet</h1>
-        <p>Claim your crypto rewards once you hit the minimum threshold!</p>
+        <header>
+            <h1>Crypto Faucet</h1>
+            <p>Claim your crypto rewards once you hit the minimum threshold!</p>
+        </header>
+        
+        <!-- Placeholder for Ad -->
+        <div class="ad-container">
+            <p>Your Ad Here</p>
+            <!-- Add your ad script here later -->
+        </div>
+        
+        <!-- Crypto Images Section -->
+        <section class="crypto-images">
+            <h2>Supported Cryptos</h2>
+            <div class="crypto-gallery">
+                <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin" />
+                <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum" />
+                <img src="https://cryptologos.cc/logos/litecoin-ltc-logo.png" alt="Litecoin" />
+                <!-- Add more crypto images as needed -->
+            </div>
+        </section>
+
+        <section class="mining-info">
+            <h2>Mining Power</h2>
+            <p id="miningPower">Current Mining Power: 0 LTC/hour</p>
+            <p>Minimum deposit required: 1 LTC</p>
+            <p>Minimum withdrawal amount: 1.5 LTC</p>
+        </section>
 
         <form id="claimForm">
             <label for="walletAddress">Enter your Wallet Address:</label>
@@ -22,4 +48,4 @@
 
     <script src="script.js"></script>
 </body>
-          </html>
+</html>
