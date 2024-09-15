@@ -1,19 +1,78 @@
-/* Existing styles... */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://example.com/beautiful-crypto-background.jpg') no-repeat center center fixed; /* Replace with your background image URL */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
 
-.mining-info {
-    margin: 20px 0;
-    padding: 10px;
-    background: #e9e9e9;
-    border: 1px solid #ccc;
+.login-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 100px auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.mining-info h2 {
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.crypto-images {
+    margin: 20px 0;
+}
+
+.crypto-images img {
+    width: 80px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label, form input, form button {
     margin: 10px 0;
-    font-size: 1.5em;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.mining-info p {
-    margin: 5px 0;
+form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
 }
